@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Italiana&family=Parisienne&display=swap');
+
+@import './header';
+@import './separador';
+@import './main';
+@import './informacion';
+@import './contactanos';
+@import './footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/pexels-misha-voguel-7536224.jpg);
+    background-repeat: no-repeat;
+    background-position:inherit;
+    background-size: 100%;
+    z-index: -1;
+}
+@media all and(max-width:850px) {
+    header img{
+        background-size: 100%;
+        background-position: inherit;
+    }
+}
+@media (max-width:620px) {
+    header img{
+        background-size: 100%;
+        background-position: inherit;
+    }
+}
+@media (max-width:560px) {
+    header img{
+        background-size: cover;
+        background-position: inherit;
+    }
+}

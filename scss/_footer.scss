@@ -1,0 +1,20 @@
+.contenedor-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    margin: 10px;
+    padding-bottom: 2%;
+}
+.redes a{
+    margin: 10px;
+}
+.footer-final{
+    font-size: 20px;
+    color: black;
+    
+}
+@media all  and (max-width:850px) {
+    .contenedor-footer{
+        bottom: 300px;
+    }
+}

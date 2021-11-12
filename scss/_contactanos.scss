@@ -1,0 +1,72 @@
+.contenedor-contactanos{
+    padding-top: 5%;
+}
+video{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+}
+.contactanos{
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+}
+label{
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(58,69,145);
+    transition: all 3s ease-in-out;
+}
+label:hover{
+    text-decoration: underline rgb(212, 113, 174);
+}
+input{
+    width: 55%;
+    height: 10%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(70, 40, 117, 0.404);
+    transition: all 3s ease-in-out;
+}
+input:hover{
+    background: rgb(238,174,202);
+    background: linear-gradient(171deg, rgba(238,174,202,1) 0%, rgba(33,4,88,0.6449930313922444) 100%);
+}
+textarea{
+    resize: none;
+    width: 55%;
+    height: 20%;
+    color: beige;
+    background-color: rgba(61, 34, 95, 0.356);
+    border: none;
+    transition: all 3s ease-in-out;
+}
+textarea:hover{
+    background: rgb(238,174,202);
+    background: linear-gradient(171deg, rgba(238,174,202,1) 0%, rgba(33,4,88,0.6449930313922444) 100%);
+}
+.boton-enviar{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    border: none;
+    background-color: rgba(29, 46, 34, 0.418);
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    width: 10%;
+    height: 15%;
+    cursor: pointer;
+}
+@media all and (max-width:850px) {
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    label{
+        font-size: 1.50em;
+    }
+}

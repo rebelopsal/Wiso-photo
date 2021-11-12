@@ -1,0 +1,68 @@
+.contenedor-separador__1{
+    width: 100%;
+    padding-top: 5%;
+}
+.contenedor-separador__2{
+    width: 100%;
+    padding-top: 5%;
+}
+.parrafo{
+    height: 0;
+    text-align: center;
+}
+.parrafo p{
+    font-family: 'Parisienne', cursive;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+}
+.parrafo::after{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    color: darkgoldenrod;
+}
+.parrafo::before{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    color: darkgoldenrod;
+}
+.contenedor-separador__final{
+    padding-top: 25%;
+}
+@media all  and (max-width: 850px) {
+    .parrafo{
+        text-align:center;
+    }
+    .contenedor-separador__1{
+        padding-top: 0%;
+        padding-bottom: 4%;
+    }
+    .contenedor-separador__2{
+        padding-top: 0%;
+        padding-bottom: 4%;
+    }
+    .parrafo::after,
+    .parrafo::before{
+        content: "~~~~~~~~~~~~~~~~~~~~";
+        color: gold;
+        margin: auto;
+    }
+    .contenedor-separador__final{
+        padding-top: 35%;
+    }
+}
+@media all and (max-width:670px) {
+    .parrafo::after,
+    .parrafo::before{
+        content: "~~~~~~~~~~~~";
+        color: goldenrod;
+    }
+    .contenedor-separador__1{
+        top: 100%;
+        margin-top: -170px;
+        
+    }
+    .contenedor-separador__2{
+        top: 100%;
+        
+    }
+}
+

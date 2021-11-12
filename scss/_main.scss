@@ -1,0 +1,25 @@
+main{
+    padding-top: 5%;
+    display: block;
+    align-items: center;
+}
+.contenedor-porta{
+    display: block;
+    margin: 50px;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 10px;
+}
+.imagenes-porta{
+    justify-content: stretch;
+}
+.imagenes-porta img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
